@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>April25th</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="area">
+        <div class="title">
+            <h1>天氣預報</h1>
+        </div>
+
+        <div class="selectArea">  
+            <select name="city" id="city"> 
+                <option value="" id="null">請選擇城市</option>
+                <option value="新北市" id="NTP">新北市</option>
+                <option value="臺北市" id="TP">臺北市</option>
+                <option value="桃園市" id="TY">桃園市</option>
+                <option value="臺中市" id="TC">臺中市</option>
+                <option value="臺南市" id="TN">臺南市</option>
+                <option value="高雄市" id="KC">高雄市</option>
+            </select>
+            <!-- <i class="fa-solid fa-caret-down"></i> -->
+            <select name="time" id="time">
+                <option value="">請選擇時間</option>
+                <option value="0">12:00:00</option>
+                <option value="1">18:00:00</option>
+                <option value="2">06:00:00</option>
+            </select>
+        </div> 
+
+        <div class="imformation">
+
+            <div class="textArea">
+                <span class="text1">城市</span>
+                <span class="text2">天氣狀況</span>
+                <span class="text3"> 
+                    <span class="text3-1"></span> - 
+                    <span class="text3-2"></span>
+                </span>
+                <span class="text4">- <span>%</span></span>
+            </div>
+
+            <div class="imgArea">
+                <i class="fa-solid fa-rainbow"></i>           
+             </div>
+
+        </div>
+    </div>
+
+
+    <script src="./weather.js"></script>
+</body>
+</html>

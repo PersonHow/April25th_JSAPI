@@ -1,0 +1,66 @@
+body {
+  width: 100%;
+  height: 600px;
+  background-color: powderblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.area {
+  width: 30%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.area .selectArea {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray;
+}
+.area .selectArea select {
+  width: 94%;
+  height: 50px;
+  font-size: 20pt;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.area .selectArea .fa-solid {
+  font-size: 30pt;
+  position: absolute;
+  right: 5%;
+}
+.area .imformation {
+  margin-top: 60px;
+  background-color: white;
+  height: 250px;
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 50px;
+  box-shadow: 5px 5px 5px gray;
+}
+.area .imformation .textArea {
+  width: 150px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.area .imformation .imgArea {
+  width: 150px;
+  height: 240px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 80pt;
+}/*# sourceMappingURL=style.css.map */
